@@ -6,24 +6,26 @@ import banner3 from '../../../assets/Banner3.jpg'
 import banner4 from '../../../assets/Banner4.jpg'
 import banner5 from '../../../assets/Banner5.jpg'
 
+import './Banner-style.css'
+
 const Banner = () => {
     return (
         <div>
-             <Carousel interval>
+             <Carousel  className='main-slide'>
                 <div>
-                    <img src={banner1} className="h-3/6"/>
+                    <img src={banner1} className="w-full h-[500px]"/>
                 </div>
                 <div>
-                    <img src={banner2} className=" h-3/6"/>
+                    <img src={banner2} className=" w-full h-[500px]"/>
                 </div>
                 <div>
-                    <img src={banner3} className=" h-3/6"/>
+                    <img src={banner3} className=" w-full h-[500px]"/>
                 </div>
                 <div>
-                    <img src={banner4} className=" h-3/6"/>
+                    <img src={banner4} className=" w-full h-[500px]"/>
                 </div>
                 <div>
-                    <img src={banner5} className=" h-3/6"/>
+                    <img src={banner5} className=" w-full h-[500px]"/>
                 </div>
             </Carousel>
         </div>
